@@ -1,0 +1,4 @@
+.header__navigation-links {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,14 @@
+.form__input_type_register {
+  border-bottom: 2px solid rgba(204, 204, 204, 1);
+}
+ 
+.form__input_type_register::placeholder {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #ccc;
+}
+
+.form__input_type_register[value] {
+  color: white;
+}

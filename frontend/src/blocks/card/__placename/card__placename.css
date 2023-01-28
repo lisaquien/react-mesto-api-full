@@ -1,0 +1,36 @@
+.card__placename {
+  max-width: 190px;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .card__placename {
+    max-width: 290px;
+  }
+}
+
+@media (max-width: 780px) {
+  .card__placename {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 618px) {
+  .card__placename {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 395px) {
+  .card__placename {
+    max-width: 200px;
+  }
+}

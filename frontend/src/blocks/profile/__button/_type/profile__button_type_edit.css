@@ -1,0 +1,12 @@
+.profile__button_type_edit {
+  border: none;
+  background: url(../../../../images/edit-button.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .profile__button_type_edit {
+    background: url(../../../../images/edit-button-xs.svg) no-repeat;
+  }
+}

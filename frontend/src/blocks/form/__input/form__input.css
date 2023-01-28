@@ -1,0 +1,19 @@
+.form__input {
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  padding: 40px 5px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background: transparent;
+  margin: 0;
+}
+
+.form__input:first-of-type {
+  margin-top: 0;
+}
+
+.form__input[value] {
+  font-size: 14px;
+  line-height: 1.1;
+}

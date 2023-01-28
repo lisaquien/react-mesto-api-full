@@ -1,0 +1,11 @@
+.card__button_type_remove {
+  border: none;
+  background: url(../../../../images/remove-button.svg) no-repeat;
+  width: 18px;
+  height: 19px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

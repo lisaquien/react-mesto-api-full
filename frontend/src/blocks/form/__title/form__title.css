@@ -1,0 +1,17 @@
+.form__title {
+  color: #000;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.1;
+  padding: 0;
+  margin: 0 auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 420px) {
+  .form__title {
+    font-size: 18px;
+  }
+}

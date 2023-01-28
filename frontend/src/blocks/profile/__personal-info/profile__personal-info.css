@@ -1,0 +1,13 @@
+.profile__personal-info {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .profile__personal-info {
+    margin: 26px auto 0;
+  }
+}

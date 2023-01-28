@@ -1,0 +1,4 @@
+.card__button_type_like_active {
+  cursor: pointer;
+  background: url(../../../../images/heart-active.svg) center no-repeat;
+}

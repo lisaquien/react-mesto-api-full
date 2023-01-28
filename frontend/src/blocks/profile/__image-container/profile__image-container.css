@@ -1,0 +1,10 @@
+.profile__image-container {
+  margin: 0 30px 0 0;
+  background: url(../../../images/edit-profile-pic.svg) no-repeat center;
+}
+
+@media (max-width: 768px) {
+  .profile__image-container {
+    margin: 0 auto;
+  }
+}
