@@ -6,7 +6,7 @@ export default function InfoTooltip({ name, isOpen, onClose, isRegistrationSucce
     <div className={`popup popup_type_${name} ${isOpen ? 'popup_opened' : ''}`}>
       <div className={`popup__container popup__container_type_${name}`}>
         <button className="popup__close-icon" aria-label="Кнопка Закрыть" onClick={onClose}></button>
-        <img className="popup__icon" src={isRegistrationSuccessful ? successIcon : failIcon}></img>
+        <img className="popup__icon" alt={isRegistrationSuccessful ? 'иконка-галочка' : 'иконка-крестик'} src={isRegistrationSuccessful ? successIcon : failIcon}></img>
         <p className="popup__message">{isRegistrationSuccessful ? "Вы успешно зарегистрировались!" : "Что-то пошло не так! Попробуйте ещё раз."}</p>
       </div>
     </div>

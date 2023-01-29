@@ -66,13 +66,6 @@ export default function App() {
     }
   }, [history, loggedIn])
 
-  /*useEffect(() => {
-    api.getUserInfo()
-      .then(data => {setCurrentUser(data)})
-      .catch(err => console.log(`Ошибка: ${err}.`))
-  },
-    [])*/
-
   function changeStateForEditProfilePopup() {
     setIsEditProfilePopupOpen(!isEditProfilePopupOpen);
   }
@@ -118,14 +111,6 @@ export default function App() {
       })
       .catch(err => console.log(`Ошибка: ${err}.`))
   }
-
-  /*React.useEffect(() => {
-    api.getInitialCards()
-      .then(data => {
-        setCards(data.reverse());
-      })
-      .catch(err => console.log(`Ошибка: ${err}.`))
-  }, [])*/
 
   function handleCardLike(card) {
     const isLiked = card.likes.some(item => item === currentUser._id);

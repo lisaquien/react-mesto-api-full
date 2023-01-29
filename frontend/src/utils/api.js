@@ -92,7 +92,7 @@ class Api {
 }
 
 export const api = new Api({
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'https://api.lisaquien.nomoredomainsclub.ru',
   headers: {
     'Content-Type': 'application/json'
   }

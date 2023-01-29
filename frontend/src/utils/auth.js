@@ -44,7 +44,7 @@ class Auth {
 }
 
 export const auth = new Auth({
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'https://api.lisaquien.nomoredomainsclub.ru',
   headers: {
     'Content-Type': 'application/json'
   }
